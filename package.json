@@ -1,0 +1,30 @@
+{
+  "name": "sample-docker-strapi-cms-postgres",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/plugin-i18n": "4.1.12",
+    "pg": "8.6.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "8047b9e4-74e3-494e-a7b0-c04f5a917dc4"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
